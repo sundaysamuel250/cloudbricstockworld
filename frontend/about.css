@@ -1,0 +1,281 @@
+    * {
+        padding: 0%;
+        margin: 0;
+    }
+    
+    .AboutPage1 {
+        background-color: #fff;
+        width: 100%;
+        position: relative;
+        padding: 4rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .AboutPage1 .glory {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 10px;
+        padding: 4rem 4rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .AboutPage1 .AboutPage1_content {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .AboutPage1 .AboutPage1_content h1 {
+        font-weight: 600;
+        font-size: 4rem;
+        letter-spacing: 1px;
+        color: #1bdadd;
+        font-family: 'Playfair Display', serif;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .AboutPage1 .AboutPage1_content p {
+        font-size: 1.1rem;
+        color: #696969;
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    
+    .AboutPage1 .AboutPage1_image {
+        background-image: url("images/chart.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    
+    .AboutPage1 .AboutPage1_image img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .AboutPage2 {
+        background-color: #f5f5f5;
+        width: 100%;
+        position: relative;
+        padding: 4rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .AboutPage2 .glory {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 10px;
+        padding: 0 4rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .AboutPage2 .AboutPage2_content {
+        padding-left: 4rem;
+    }
+    
+    .AboutPage2 .AboutPage2_content h1 {
+        color: #000;
+        font-size: 3rem;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 2px;
+    }
+    
+    .AboutPage2 .AboutPage2_content span {
+        color: #1bdadd;
+        font-size: 3.2rem;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .AboutPage2 .AboutPage2_content p {
+        font-size: 2rem;
+        color: #696969;
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    
+    .AboutPage2 .AboutPage2_image p {
+        font-size: 1.2rem;
+        color: #696969;
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    .AboutPage2 .AboutPage2_image {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        color: #1bdadd;
+    }
+    
+    .AboutPage2 .AboutPage2_image svg {
+        width: 20%;
+    }
+    
+    .AboutPage3 {
+        background-color: #fff;
+        width: 100%;
+        position: relative;
+        padding: 4rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .AboutPage3 .glory {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 10px;
+        padding: 4rem 4rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .AboutPage3 .AboutPage3_content {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .AboutPage3 .AboutPage3_content h1 {
+        font-weight: 600;
+        font-size: 3.5rem;
+        letter-spacing: 1px;
+        color: #000;
+        font-family: 'Playfair Display', serif;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .AboutPage3 .AboutPage3_content span {
+        color: #1bdadd;
+        font-size: 4rem;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .AboutPage3 .AboutPage3_content p {
+        font-size: 1.1rem;
+        color: #696969;
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    
+    .AboutPage3 .AboutPage3_image {
+        background-image: url("images/best.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        color: #1bdadd;
+    }
+    
+    .AboutPage3 .glory .AboutPage3_image img {
+        width: 80%;
+        height: auto;
+    }
+    
+    .AboutPage4 {
+        background-color: #fff;
+        width: 100%;
+        position: relative;
+        padding: 4rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .AboutPage4 .glory {
+        display: flex;
+        padding: 4rem 4rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .AboutPage4 .AboutPage4_content {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .AboutPage4 .AboutPage4_content h1 {
+        font-weight: 600;
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+        color: #000;
+        font-family: 'Playfair Display', serif;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .AboutPage4 .AboutPage4_content span {
+        color: #1bdadd;
+        font-size: 3rem;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        width: 50%;
+    }
+    
+    .AboutPage4 .AboutPage4_content p {
+        font-size: 1.1rem;
+        color: #696969;
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    
+    .AboutPage4 .AboutPage4_image {
+        background-image: url("images/Garant.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        color: #1bdadd;
+    }
+    
+    .AboutPage4 .glory .AboutPage4_image img {
+        width: 80%;
+        height: auto;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .AboutPage1 .glory {
+            padding: 0rem 1rem;
+            text-align: center;
+        }
+        .AboutPage2 .AboutPage2_content {
+            padding-left: 1rem;
+        }
+        .AboutPage2 .AboutPage2_content h1 {
+            font-size: 2rem;
+        }
+        .AboutPage2 .glory {
+            padding: 0 1rem;
+        }
+        .AboutPage4 .AboutPage4_content {
+            align-items: center;
+            justify-content: center;
+        }
+        .AboutPage3 .AboutPage3_content h1 {
+            font-size: 2.5rem;
+        }
+        .AboutPage3 .AboutPage3_content span {
+            font-size: 2.7rem;
+        }
+        .AboutPage3 .glory {
+            padding: 0rem 1rem;
+        }
+        .AboutPage4 .glory {
+            padding: 0 1rem;
+            flex-flow: column-reverse;
+        }
+        .AboutPage4 .AboutPage4_content h1 {
+            font-weight: 600;
+            font-size: 2rem;
+        }
+    }

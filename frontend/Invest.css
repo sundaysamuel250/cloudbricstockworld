@@ -1,0 +1,249 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+.InvestPage1 {
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    padding: 4rem 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.InvestPage1 .grace {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    padding: 4rem 4rem;
+    align-items: center;
+}
+
+.InvestPage1 .InvestPage1_content {
+    align-items: center;
+    justify-content: center;
+}
+
+.InvestPage1 .InvestPage1_content h1 {
+    font-weight: 600;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    color: #000;
+    font-family: 'Playfair Display', serif;
+}
+
+.InvestPage1 .InvestPage1_content p {
+    font-size: 1.1rem;
+    color: #696969;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.InvestPage1 .InvestPage1_content span {
+    color: #1bdadd;
+    font-weight: 600;
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+
+.InvestPage1 .btn {
+    width: 14rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    -webkit-appearance: button;
+    text-rendering: auto;
+    color: #fff;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: pointer;
+    background-color: #1bdadd;
+    border-style: solid;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-image: initial;
+}
+
+.InvestPage1 .InvestPage1_image {
+    background-image: url("images/buy-sell@1x-768x640.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.InvestPage1 .InvestPage1_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.InvestPage2 {
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.InvestPage2 .grace {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    padding: 0 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.InvestPage2 .grace .col {
+    width: 100%;
+}
+
+.InvestPage2 .grace .card {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.InvestPage2 .grace.card-title {
+    color: #1bdadd;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+.InvestPage2 .grace.card-text {
+    color: #3f3e3e;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+.InvestPage2 .grace .card-img-top {
+    width: 100%;
+    height: 40%;
+}
+
+.InvestPage1 .InvestPage1_content span {
+    color: #1bdadd;
+    font-weight: 600;
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+
+.InvestPage3 {
+    background-color: #fff;
+    width: 100%;
+    padding: 4rem 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.InvestPage3 .grace {
+    display: flex;
+    padding: 2rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.InvestPage3 .grace .InvestPage3_content {
+    align-items: center;
+    justify-content: center;
+}
+
+.InvestPage3 .grace .InvestPage3_content h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #0a2458;
+    font-family: 'Playfair Display', serif;
+}
+
+.InvestPage3 .grace .InvestPage3_content p {
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: #696969;
+    font-family: 'Playfair Display', serif;
+}
+
+.InvestPage3 .grace .InvestPage3_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.InvestPage4 {
+    background-color: #fff;
+    width: 100%;
+    padding: 4rem 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.InvestPage4 .grace {
+    display: flex;
+    padding: 2rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.InvestPage4 .grace .InvestPage4_content {
+    align-items: center;
+    justify-content: center;
+}
+
+.InvestPage4 .grace .InvestPage4_content h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #0a2458;
+    font-family: 'Playfair Display', serif;
+}
+
+.InvestPage4 .grace .InvestPage4_content p {
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: #696969;
+    font-family: 'Playfair Display', serif;
+}
+
+.InvestPage4 .grace .InvestPage4_content ul li {
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: #696969;
+    font-family: 'Playfair Display', serif;
+}
+
+.InvestPage4 .grace .InvestPage4_image img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .InvestPage1 .InvestPage1_content span {
+        font-size: 3rem;
+    }
+    .InvestPage1 .grace {
+        padding: 2rem 2rem;
+        overflow: hidden;
+    }
+    .InvestPage2 .grace,
+    .InvestPage3 .grace {
+        padding: 0 2rem;
+        flex-flow: column;
+    }
+    .InvestPage4 .grace {
+        flex-flow: column-reverse;
+        padding: 0 2rem;
+    }
+    .InvestPage3 .grace .InvestPage3_content {
+        width: 100%;
+    }
+}

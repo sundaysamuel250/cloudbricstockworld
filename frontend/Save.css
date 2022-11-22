@@ -1,0 +1,318 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    transition: all, 2s linear;
+}
+
+.SavePage1 {
+    background-color: #fff;
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.SavePage1 .grace {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    padding: 4rem 4rem;
+    align-items: center;
+}
+
+.SavePage1 .SavePage1_content {
+    align-items: center;
+    justify-content: center;
+}
+
+.SavePage1 .SavePage1_content h1 {
+    font-weight: 600;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    color: #000;
+    font-family: 'Playfair Display', serif;
+}
+
+.SavePage1 .SavePage1_content p {
+    font-size: 1.1rem;
+    color: #696969;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.SavePage1 .SavePage1_content span {
+    color: #1bdadd;
+    font-weight: 600;
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+
+.SavePage1 .grace .SavePage1_image {
+    background-image: url("images/BB.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.SavePage1 .grace .SavePage1_image img {
+    width: 100%;
+    height: 100;
+}
+
+.cash_back h1 {
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #0a2458;
+    font-size: 3.4rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: "poppins" sans-serif;
+}
+
+.SavePage2 {
+    background-color: #fff;
+    width: 100%;
+    padding: 4rem 0
+}
+
+.SavePage2 .grace {
+    display: flex;
+    padding: 0 8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SavePage2 .SavePage2_content {
+    align-items: center;
+    justify-content: center;
+}
+
+.SavePage2 .SavePage2_content h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #000;
+    font-family: 'Playfair Display', serif;
+}
+
+.SavePage2 .SavePage2_content p {
+    font-size: 1.1rem;
+    color: #696969;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.SavePage2 .SavePage2_content span {
+    color: #000;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.SavePage2 .SavePage2_content ul li {
+    font-size: 1rem;
+    color: #696969;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.SavePage2 .grace .SavePage2_image {
+    background-image: url("images/image5.svg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.SavePage2 .grace .SavePage2_image {
+    width: 100%;
+}
+
+.SavePage2 .grace .SavePage2_image img {
+    width: 90%;
+    height: 100%;
+}
+
+.SavePage3 {
+    background-color: #fff;
+    width: 100%;
+    padding: 4rem 0
+}
+
+.SavePage3 .grace {
+    display: flex;
+    padding: 0 8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SavePage3 .SavePage3_content {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.SavePage3 .SavePage3_content h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #000;
+    font-family: 'Playfair Display', serif;
+}
+
+.SavePage3 .SavePage3_content p {
+    font-size: 1.1rem;
+    color: #696969;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.SavePage3 .SavePage3_content span {
+    color: #000;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.SavePage3 .SavePage3_content ul li {
+    font-size: 1rem;
+    color: #696969;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.SavePage3 .grace .SavePage3_image {
+    background-image: url("images/Keyless-Left4.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.SavePage3 .grace .SavePage3_image {
+    width: 100%;
+}
+
+.SavePage3 .grace .SavePage3_image img {
+    width: 90%;
+    height: 100%;
+}
+
+.SavePage4 {
+    background-color: #fff;
+    width: 100%;
+    padding: 4rem 0
+}
+
+.SavePage4 .grace {
+    display: flex;
+    padding: 0 8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SavePage4 .SavePage4_content {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.SavePage4 .SavePage4_content h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #000;
+    font-family: 'Playfair Display', serif;
+}
+
+.SavePage4 .SavePage4_content p {
+    font-size: 1.1rem;
+    color: #696969;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.SavePage4 .grace .SavePage4_image {
+    background-image: url("images/sit1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.SavePage4 .grace .SavePage4_image {
+    width: 90%;
+}
+
+.SavePage4 .grace .SavePage4_image img {
+    width: 90%;
+    height: 100%;
+}
+
+.SavePage5 {
+    background-color: #fff;
+    width: 100%;
+    padding: 4rem 0
+}
+
+.SavePage5 .grace {
+    display: flex;
+    padding: 0 8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SavePage5 .SavePage5_content {
+    align-items: center;
+    justify-content: center;
+}
+
+.SavePage5 .SavePage5_content h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #000;
+    font-family: 'Playfair Display', serif;
+}
+
+.SavePage5 .grace .SavePage5_image {
+    background-image: url("images/sit3.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.SavePage5 .grace .SavePage5_image {
+    width: 100%;
+}
+
+.SavePage5 .grace .SavePage5_image img {
+    width: 50%;
+    height: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .SavePage1 .grace {
+        padding: 4rem 2rem;
+    }
+    .SavePage4 .grace,
+    .SavePage3 .grace,
+    .SavePage2 .grace {
+        flex-flow: column;
+        padding: 0 2rem;
+    }
+    .SavePage5 .grace {
+        flex-flow: column-reverse;
+        padding: 0 2rem;
+    }
+    .SavePage5 .grace .SavePage5_image img {
+        width: 50%;
+        height: 100%;
+    }
+}
